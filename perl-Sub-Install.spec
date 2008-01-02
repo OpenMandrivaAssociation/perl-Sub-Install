@@ -12,6 +12,7 @@ Group: 		Development/Perl
 Url:        http://search.cpan.org/dist/%{module}
 Source:     http://www.cpan.org/modules/by-module/Sub/%{module}-%{version}.tar.gz
 BuildArch:  noarch
+BuildRoot:  %{_tmppath}/%{name}-%{version}
 
 %description 
 This module makes it easy to install subroutines into packages without the
