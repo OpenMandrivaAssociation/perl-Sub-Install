@@ -1,7 +1,7 @@
 %define module  Sub-Install
 %define	name	perl-%{module}
-%define version 0.924
-%define release %mkrel 3
+%define version 0.925
+%define release %mkrel 1
 
 Name: 		%{name}
 Version: 	%{version}
