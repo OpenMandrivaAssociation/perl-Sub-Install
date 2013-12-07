@@ -3,7 +3,7 @@
 Summary:	Install subroutines into packages easily
 Name:		perl-%{module}
 Version:	0.925
-Release:	11
+Release:	12
 License:	GPLv2 or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{module}
