@@ -2,7 +2,7 @@
 
 Name:		perl-%{module}
 Version:	0.925
-Release:	8
+Release:	9
 Summary:	Install subroutines into packages easily
 License:	GPL or Artistic
 Group:		Development/Perl
