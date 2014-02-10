@@ -1,5 +1,5 @@
 %define module  Sub-Install
-%define upstream_version 0.926
+%define upstream_version 0.927
 
 Name:		perl-%{module}
 Version:	%perl_convert_version %{upstream_version}
@@ -34,3 +34,4 @@ make test
 %doc Changes README
 %{perl_vendorlib}/Sub
 %{_mandir}/*/*
+
