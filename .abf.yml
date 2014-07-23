@@ -1,5 +1,6 @@
 removed_sources:
   Sub-Install-0.925.tar.gz: 628624a2ca52e22f18cbcd2851ab5c9b31c92da1
   Sub-Install-0.926.tar.gz: 7a7731ef3a7e51f77c5ffc2eeb857398748887d1
-sources:
   Sub-Install-0.927.tar.gz: 865e474332e304c9781cc2650c303b13da43b79c
+sources:
+  Sub-Install-0.928.tar.gz: 868c6cb4c0232d9ac3f865f232359f82012be8d6

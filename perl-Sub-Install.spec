@@ -1,9 +1,9 @@
 %define module  Sub-Install
-%define upstream_version 0.927
+%define upstream_version 0.928
 
 Name:		perl-%{module}
 Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Release:	1
 Summary:	Install subroutines into packages easily
 License:	GPL or Artistic
 Group:		Development/Perl
@@ -34,4 +34,3 @@ make test
 %doc Changes README
 %{perl_vendorlib}/Sub
 %{_mandir}/*/*
-
