@@ -3,7 +3,7 @@
 
 Name:		perl-%{module}
 Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Release:	4
 Summary:	Install subroutines into packages easily
 License:	GPL or Artistic
 Group:		Development/Perl
