@@ -10,6 +10,7 @@ Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{module}
 Source0:	http://www.cpan.org/modules/by-module/Sub/Sub-Install-%{upstream_version}.tar.gz
 BuildRequires:	perl-devel
+BuildRequires:  perl(Test::More)
 BuildArch:	noarch
 
 %description 
