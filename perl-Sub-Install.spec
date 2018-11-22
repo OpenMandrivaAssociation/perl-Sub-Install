@@ -3,11 +3,11 @@
 
 Name:		perl-%{module}
 Version:	%perl_convert_version %{upstream_version}
-Release:	7
+Release:	8
 Summary:	Install subroutines into packages easily
 License:	GPL or Artistic
 Group:		Development/Perl
-Url:		http://search.cpan.org/dist/%{module}
+Url:		http://metacpan.org/pod/Sub::Install
 Source0:	http://www.cpan.org/modules/by-module/Sub/Sub-Install-%{upstream_version}.tar.gz
 BuildRequires:	perl-devel
 BuildRequires:  perl(Test::More)
