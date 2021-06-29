@@ -3,7 +3,7 @@
 
 Name:		perl-%{module}
 Version:	%perl_convert_version %{upstream_version}
-Release:	8
+Release:	9
 Summary:	Install subroutines into packages easily
 License:	GPL or Artistic
 Group:		Development/Perl
@@ -19,7 +19,7 @@ unslightly mess of no strict or typeglobs lying about where just anyone can see
 them.
 
 %prep
-%setup -q -n %{module}-%{upstream_version}
+%autosetup -p1 -n %{module}-%{upstream_version}
 
 %build
 %__perl Makefile.PL INSTALLDIRS=vendor
