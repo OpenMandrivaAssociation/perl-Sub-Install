@@ -1,14 +1,13 @@
 %define module  Sub-Install
-%define upstream_version 0.928
 
 Name:		perl-%{module}
-Version:	%perl_convert_version %{upstream_version}
+Version:	0.929
 Release:	1
 Summary:	Install subroutines into packages easily
 License:	GPL or Artistic
 Group:		Development/Perl
 Url:		http://metacpan.org/pod/Sub::Install
-Source0:	http://www.cpan.org/modules/by-module/Sub/Sub-Install-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Sub/Sub-Install-%{version}.tar.gz
 BuildRequires:	perl-devel
 BuildRequires:  perl(Test::More)
 BuildArch:	noarch
@@ -19,7 +18,7 @@ unslightly mess of no strict or typeglobs lying about where just anyone can see
 them.
 
 %prep
-%autosetup -p1 -n %{module}-%{upstream_version}
+%autosetup -p1 -n %{module}-%{version}
 
 %build
 %__perl Makefile.PL INSTALLDIRS=vendor
