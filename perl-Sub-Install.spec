@@ -6,7 +6,7 @@ Release:	1
 Summary:	Install subroutines into packages easily
 License:	GPL or Artistic
 Group:		Development/Perl
-Url:		http://metacpan.org/pod/Sub::Install
+Url:		https://metacpan.org/pod/Sub::Install
 Source0:	http://www.cpan.org/modules/by-module/Sub/Sub-Install-%{version}.tar.gz
 BuildRequires:	perl-devel
 BuildRequires:  perl(Test::More)
