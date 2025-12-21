@@ -8,6 +8,7 @@ License:	GPL or Artistic
 Group:		Development/Perl
 Url:		https://metacpan.org/pod/Sub::Install
 Source0:	http://www.cpan.org/modules/by-module/Sub/Sub-Install-%{version}.tar.gz
+BuildRequires:	make
 BuildRequires:	perl-devel
 BuildRequires:  perl(Test::More)
 BuildArch:	noarch
